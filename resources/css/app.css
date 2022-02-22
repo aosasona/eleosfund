@@ -1,5 +1,68 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800);
 
+* {
+    font-family: Poppins, 'sans serif';
+    box-sizing: border-box;
+}
+.circleContainer {
+    position: relative;
+    width: 100vw;
+    animation: 500ms circleAnimation ease-out;
+    animation-fill-mode: forwards;
+    transform-origin: top right;
+    animation-delay: 300ms;
+    transform : scale(0);  
+}
+.circleBackground {
+    position: absolute;
+    top: -20rem;
+    right: -5rem;
+    width: 35rem;
+    height: 35rem;
+    background-color: #008A0E;
+    opacity: 65%;
+    border-radius: 50%;
+    z-index: -1;
+}
+@keyframes circleAnimation {
+    0%{
+        transform : scale(0);  
+      }
+      100% {
+      transform: scale(1);
+      }
+}
+.navLogo {
+    animation: 500ms popIn ease-in-out;
+    animation-fill-mode: forwards;
+    transform-origin: top left;
+}
+@keyframes popIn {
+    0%{
+      transform : scale(0);  
+    }
+    100% {
+    transform: scale(1);
+    }
+}
+#NavLinks {
+    animation: 600ms popUp ease-in-out;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    animation-delay : 800ms;
+    opacity: 0;
+}
+@keyframes popUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
