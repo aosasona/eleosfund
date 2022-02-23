@@ -35,6 +35,13 @@
             <a href="/signup"  class="bg-transparent border-2 border-green-600 text-green-600 py-2 px-4 font-medium">Get Started</a>
             <a href="/signin" class="bg-transparent border-2 border-green-600 text-green-600 py-2 px-4 font-medium">Sign In</a>
         </div>
+
+        <div class="mx-10 mt-24 opacity-70">
+            <div class="absolute bottom-[5vh] left-[5vw] bg-green-600 w-12 h-12 rotate-6"></div>
+            <div class="absolute right-[2vw] bg-sky-600 w-12 h-12 rotate-6"></div>
+            <div class="absolute left-[10vw] top-[15vh] bg-red-600 w-12 h-12 rotate-12"></div>
+            <div class="absolute right-[50vw] bottom-[15vh] bg-yellow-600 w-12 h-12 rotate-[30deg] hidden xl:block"></div>
+        </div>
     </div>
 
      <!-- Second section -->

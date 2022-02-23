@@ -17,7 +17,7 @@
         <div class="circleBackground w-[37rem] h-[37rem]"></div>
     </div>
 
-    <nav class="mx-5 flex flex-row justify-between items-center my-1 xl:my-10 xl:mx-32">
+    <nav class="mx-5 flex flex-row justify-between items-center my-2 xl:my-10 xl:mx-32">
 
         <div class="flex flex-row w-auto items-center h-[6vh] xl:h-[10vh] navLogo">
         <img src="{{ asset('/img/eleosfund.svg') }}" class="h-full" alt="logo" />
