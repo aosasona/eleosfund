@@ -122,7 +122,7 @@ html, body {
     transform : scale(0);
 }
 
-.section a:hover, a:active {
+#NavLinks a:hover, a:active {
     -webkit-animation: 500ms buttonEffect ease-in-out;
             animation: 500ms buttonEffect ease-in-out;
     -webkit-animation-fill-mode: forwards;
@@ -621,29 +621,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .top-0{
     top: 0px;
 }
-.left-0{
-    left: 0px;
-}
 .bottom-0{
     bottom: 0px;
 }
-.bottom-1{
-    bottom: 0.25rem;
+.left-0{
+    left: 0px;
 }
 .right-0{
     right: 0px;
 }
-.bottom-5{
-    bottom: 1.25rem;
-}
-.right-5{
-    right: 1.25rem;
-}
 .z-\[-1\]{
     z-index: -1;
-}
-.z-\[0\]{
-    z-index: 0;
 }
 .mx-10{
     margin-left: 2.5rem;
@@ -664,10 +652,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mx-3{
     margin-left: 0.75rem;
     margin-right: 0.75rem;
-}
-.my-5{
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
 }
 .mt-3{
     margin-top: 0.75rem;
@@ -693,9 +677,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mb-5{
     margin-bottom: 1.25rem;
 }
-.block{
-    display: block;
-}
 .flex{
     display: flex;
 }
@@ -708,23 +689,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-\[100vh\]{
     height: 100vh;
 }
-.h-\[40rem\]{
-    height: 40rem;
+.h-\[37rem\]{
+    height: 37rem;
 }
 .h-\[6vh\]{
     height: 6vh;
 }
 .h-full{
     height: 100%;
-}
-.h-\[37rem\]{
-    height: 37rem;
-}
-.h-screen{
-    height: 100vh;
-}
-.h-\[60vh\]{
-    height: 60vh;
 }
 .w-\[100vw\]{
     width: 100vw;
@@ -743,9 +715,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-screen{
     width: 100vw;
-}
-.w-\[40rem\]{
-    width: 40rem;
 }
 .w-\[37rem\]{
     width: 37rem;
@@ -805,10 +774,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-green-600{
     --tw-border-opacity: 1;
     border-color: rgb(22 163 74 / var(--tw-border-opacity));
-}
-.border-zinc-600{
-    --tw-border-opacity: 1;
-    border-color: rgb(82 82 91 / var(--tw-border-opacity));
 }
 .border-zinc-300{
     --tw-border-opacity: 1;
@@ -872,19 +837,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-.py-3{
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-}
-.py-5{
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+.pt-16{
+    padding-top: 4rem;
 }
 .pb-5{
     padding-bottom: 1.25rem;
-}
-.pt-16{
-    padding-top: 4rem;
 }
 .text-left{
     text-align: left;
@@ -901,10 +858,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 3.75rem;
     line-height: 1;
 }
-.text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-}
 .font-semibold{
     font-weight: 600;
 }
@@ -914,9 +867,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .font-light{
     font-weight: 300;
 }
-.leading-6{
-    line-height: 1.5rem;
-}
 .text-green-600{
     --tw-text-opacity: 1;
     color: rgb(22 163 74 / var(--tw-text-opacity));
@@ -925,13 +875,13 @@ Ensure the default browser behavior of the `hidden` attribute.
     --tw-text-opacity: 1;
     color: rgb(220 38 38 / var(--tw-text-opacity));
 }
-.text-white{
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-}
 .text-black{
     --tw-text-opacity: 1;
     color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+.text-white{
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .antialiased{
     -webkit-font-smoothing: antialiased;
@@ -945,14 +895,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .opacity-100{
     opacity: 1;
-}
-.blur-xl{
-    --tw-blur: blur(24px);
-    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-.blur-2xl{
-    --tw-blur: blur(40px);
-    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 .drop-shadow-lg{
     --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
@@ -984,11 +926,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     .xl\:my-10{
         margin-top: 2.5rem;
         margin-bottom: 2.5rem;
-    }
-
-    .xl\:mx-32{
-        margin-left: 8rem;
-        margin-right: 8rem;
     }
 
     .xl\:mx-28{
