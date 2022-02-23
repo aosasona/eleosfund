@@ -10,7 +10,7 @@
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://eleosfund.com/">
-<meta property="og:title" content="EleosFund - ">
+<meta property="og:title" content="EleosFund - Fundraising For Startups">
 <meta property="og:description" content="Raise funds to bring that idea to life and build your own startup!">
 <meta property="og:image" content="https://eleosfund.com/img/eleosfund.png">
 
@@ -21,6 +21,7 @@
 <meta property="twitter:description" content="Raise funds to bring that idea to life and build your own startup!">
 <meta property="twitter:image" content="https://eleosfund.com/img/eleosfund.png">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <div id="fullpage">

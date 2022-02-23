@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="antialiased">
-    <div class="circleContainer hidden xl:block">
-        <div class="circleBackground"></div>
+    <div class="circleContainer">
+        <div class="circleBackground w-[20rem] h-[20rem] xl:w-[37rem] xl:h-[37rem]"></div>
     </div>
 
     <nav class="mx-5 flex flex-row justify-between items-center my-1 xl:my-10 xl:mx-32">
