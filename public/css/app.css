@@ -762,6 +762,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-2\/3{
     height: 66.666667%;
 }
+.h-4\/6{
+    height: 66.666667%;
+}
 .w-\[100vw\]{
     width: 100vw;
 }
