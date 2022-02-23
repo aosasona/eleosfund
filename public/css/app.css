@@ -166,6 +166,57 @@ html, body {
     color:#008A0E;
 }
 
+.navSlideIn {
+    -webkit-animation : 300ms navSlideIn ease-in-out;
+            animation : 300ms navSlideIn ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    transform-origin: left;
+    transform: translateX(-200px);
+}
+
+.navSlideOut {
+    -webkit-animation : 300ms navSlideOut ease-in-out;
+            animation : 300ms navSlideOut ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    transform-origin: left;
+}
+@-webkit-keyframes navSlideIn {
+    0% {
+        transform: translateX(-50vw);
+    }
+    100% { 
+        transform: translateX(0px);
+    }
+}
+@keyframes navSlideIn {
+    0% {
+        transform: translateX(-50vw);
+    }
+    100% { 
+        transform: translateX(0px);
+    }
+}
+@-webkit-keyframes navSlideOut {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        
+        transform: translateX(-50vw);
+    }
+}
+@keyframes navSlideOut {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        
+        transform: translateX(-50vw);
+    }
+}
+
 /*
 ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
 */

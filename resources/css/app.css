@@ -110,6 +110,36 @@ html, body {
     color:#008A0E;
 }
 
+.navSlideIn {
+    animation : 300ms navSlideIn ease-in-out;
+    animation-fill-mode: forwards;
+    transform-origin: left;
+    transform: translateX(-200px);
+}
+
+.navSlideOut {
+    animation : 300ms navSlideOut ease-in-out;
+    animation-fill-mode: forwards;
+    transform-origin: left;
+}
+@keyframes navSlideIn {
+    0% {
+        transform: translateX(-50vw);
+    }
+    100% { 
+        transform: translateX(0px);
+    }
+}
+@keyframes navSlideOut {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        
+        transform: translateX(-50vw);
+    }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

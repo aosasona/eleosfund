@@ -38,7 +38,7 @@
         
     </nav>
 
-<div class="hidden" id="navMenuFull">
+<div class="hidden xl:hidden" id="navMenuFull">
 <div class="w-[100vw] h-[100vh] bg-black opacity-30 absolute z-[-1] bottom-0 top-0 left-0 right-0" id="vignette"></div>
 <div class='absolute flex flex-col bg-white drop-shadow-lg w-1/2 h-[100vh] top-0 bottom-0 left-0 px-6 py-4 pt-16 opacity-100 font-light text-xl' id="navMenu">
 <a  href="{{ route('about')}}" class="pb-5 mb-5 border-b-2 border-zinc-300">About Us</a>
@@ -60,21 +60,32 @@
     <script type="text/javascript">
     const navBtn = document.getElementById('navBtn')
     const nav = document.getElementById('navMenuFull')
+    const navMenu = document.getElementById('navMenu')
     const vignette = document.getElementById('vignette')
 
     navBtn.addEventListener('click', () => {
         if(nav.classList.contains('hidden')){
             nav.classList.remove('hidden')
+            navMenu.classList.remove('navSlideOut')
+            navMenu.classList.add('navSlideIn')
             navBtn.innerHTML = '<i class="fa-solid fa-xmark text-2xl"></i>'
         } else {
-            nav.classList.add('hidden')
+            navMenu.classList.remove('navSlideIn')
+            navMenu.classList.add('navSlideOut')
             navBtn.innerHTML = '<i class="fa-solid fa-bars text-2xl">'
+                setTimeout(() => {
+                    nav.classList.add('hidden')
+                }, 400);
         }
         
     })
     vignette.addEventListener('click', () => {
-        nav.classList.add('hidden')
+        navMenu.classList.remove('navSlideIn')
+        navMenu.classList.add('navSlideOut')
         navBtn.innerHTML = '<i class="fa-solid fa-bars text-2xl">'
+            setTimeout(() => {
+                nav.classList.add('hidden')
+            }, 350);
     })
     </script>
 
