@@ -28,7 +28,7 @@
     <center>
      <!-- First section -->
     <div class="section w-[100vw] flex flex-col">
-        <h1 class="font-semibold text-2xl xl:text-6xl">Bring Your Idea To Life!</h1>
+        <h1 class="font-semibold text-2xl xl:text-6xl textMain">Bring Your Idea To Life!</h1>
         <div class="underlineDiv w-4/5 xl:w-2/5 mt-3 mb-3 xl:my-8"></div>
         <span class="textTyped text-green-600 text-xl xl:text-3xl font-medium w-auto"></span>
     </div>
