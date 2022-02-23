@@ -11,15 +11,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="antialiased">
+
+<div class="fixed top-0">
     <div class="circleContainer hidden xl:block">
         <div class="circleBackground w-[37rem] h-[37rem]"></div>
     </div>
 
     <nav class="mx-5 flex flex-row justify-between items-center my-1 xl:my-10 xl:mx-32">
 
-        <div class="flex flex-row w-auto items-center h-[10vh] navLogo">
+        <div class="flex flex-row w-auto items-center h-[6vh] xl:h-[10vh] navLogo">
         <img src="{{ asset('/img/eleosfund.svg') }}" class="h-full" alt="logo" />
-        <span class="font-medium text-lg mx-2">EleosFund</span>
+        <span class="font-medium text-2xl mx-2">EleosFund</span>
         </div>
 
         <div id="NavLinks" class="text-white font-medium hidden xl:block">
@@ -29,10 +31,11 @@
         </div>
         
     </nav>
+</div>
 
     
 
-    <section>
+    <section class="">
     @yield('content')
     </section>
 

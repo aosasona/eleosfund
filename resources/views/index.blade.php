@@ -116,6 +116,9 @@ new fullpage('#fullpage', {
 	parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
     slideSelector: '.section',
     controlArrows: true,
+    css3: true,
+	scrollingSpeed: 500,
+	autoScrolling: true,
 });
 
 //methods
