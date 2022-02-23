@@ -21,7 +21,7 @@
     <nav class="mx-5 flex flex-row justify-between items-center my-2 xl:my-10 xl:mx-28">
 
         <div class="flex flex-row w-auto items-center h-[6vh] xl:h-[8vh] navLogo">
-        <img src="{{ asset('/img/eleosfund.svg') }}" class="h-4/6" alt="logo" />
+        <img src="{{ asset('/img/eleosfund.svg') }}" class="max-h-[70%]" alt="logo" />
         <span class="font-medium text-xl xl:text-2xl mx-2">EleosFund</span>
         </div>
 

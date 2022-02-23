@@ -765,6 +765,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-4\/6{
     height: 66.666667%;
 }
+.max-h-\[70\%\]{
+    max-height: 70%;
+}
 .w-\[100vw\]{
     width: 100vw;
 }
