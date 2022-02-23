@@ -84,6 +84,28 @@ html, body {
     transform : scale(0);
 }
 
+.section a:hover {
+    animation: 500ms buttonEffect ease-in-out;
+    animation-fill-mode: forwards;
+    transform-origin: top;
+}
+
+@keyframes buttonEffect {
+    0% {
+        background-color: transparent;
+        color : #009D19;
+        transform : scaleX(1);
+    }
+    50% {
+        transform : scaleX(1.5);
+    }
+    100% {
+        background-color: #009D19; 
+        color: white;
+        transform : scaleX(1);
+    }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
