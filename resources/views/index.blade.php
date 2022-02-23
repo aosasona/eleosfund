@@ -56,7 +56,7 @@
      <div class="section w-[100vw] h-[100vh] flex flex-col xl:flex-row justify-center items-center px-5">
         <div class="w-full xl:w-3/5 flex flex-col xl:flex-row-reverse justify-center items-center px-5 xl:text-right">
             <img src="{{ asset('img/thought.svg') }}" alt="Thought" class="xl:w-1/3"/>
-            <h1 class="break-words text-2xl xl:text-5xl font-medium xl:mx-10 mt-8 xl:mt-0">You gave it a <span class="text-green-600">LOT</span>of thought and asked others what they thought</h1>
+            <h1 class="break-words text-2xl xl:text-5xl font-medium xl:mx-10 mt-8 xl:mt-0">You gave it a <span class="text-green-600">LOT</span> of thought and seeked 3rd-party opinions</h1>
             </div>
     </div>
 
