@@ -31,7 +31,7 @@
         <h1 class="font-semibold text-2xl xl:text-6xl textMain">Bring Your Idea To Life!</h1>
         <div class="underlineDiv w-4/5 xl:w-2/5 mt-3 mb-3 xl:my-8 rotate-3"></div>
         <span class="textTyped text-green-600 text-xl xl:text-3xl font-medium w-auto"></span>
-        <div class="mt-12 flex flex-row justify-evenly">
+        <div class="mt-12 flex flex-row justify-evenly startLinks">
             <a href="/signup"  class="bg-transparent border-2 border-green-600 text-green-600 py-2 px-4 font-medium">Get Started</a>
             <a href="/signin" class="bg-transparent border-2 border-green-600 text-green-600 py-2 px-4 font-medium">Sign In</a>
         </div>
@@ -93,7 +93,7 @@
             <p class="px-5 mt-2">Well, you do owe us one thing, just kidding. All we want is that you create something truly amazing with the capital 😎</p>
         </div>
 
-        <div class="mt-16 font-light text-xs" id="footer"></div>
+        <div class="mt-12 xl:mt-16 font-light text-xs" id="footer"></div>
         
     </div>
 

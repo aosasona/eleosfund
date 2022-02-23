@@ -122,7 +122,7 @@ html, body {
     transform : scale(0);
 }
 
-#NavLinks a:hover, a:active {
+.startLinks a:hover, a:active {
     -webkit-animation: 500ms buttonEffect ease-in-out;
             animation: 500ms buttonEffect ease-in-out;
     -webkit-animation-fill-mode: forwards;
@@ -729,14 +729,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-5{
     margin-top: 1.25rem;
 }
-.mb-5{
-    margin-bottom: 1.25rem;
-}
-.mt-10{
-    margin-top: 2.5rem;
-}
 .mt-16{
     margin-top: 4rem;
+}
+.mb-5{
+    margin-bottom: 1.25rem;
 }
 .flex{
     display: flex;
@@ -1000,6 +997,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
     .xl\:mt-0{
         margin-top: 0px;
+    }
+
+    .xl\:mt-16{
+        margin-top: 4rem;
     }
 
     .xl\:block{

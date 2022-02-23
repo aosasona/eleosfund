@@ -84,7 +84,7 @@ html, body {
     transform : scale(0);
 }
 
-#NavLinks a:hover, a:active {
+.startLinks a:hover, a:active {
     animation: 500ms buttonEffect ease-in-out;
     animation-fill-mode: forwards;
     transform-origin: top;
