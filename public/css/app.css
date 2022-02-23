@@ -732,6 +732,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mb-5{
     margin-bottom: 1.25rem;
 }
+.mt-10{
+    margin-top: 2.5rem;
+}
+.mt-16{
+    margin-top: 4rem;
+}
 .flex{
     display: flex;
 }
@@ -912,6 +918,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-6xl{
     font-size: 3.75rem;
     line-height: 1;
+}
+.text-xs{
+    font-size: 0.75rem;
+    line-height: 1rem;
 }
 .font-semibold{
     font-weight: 600;

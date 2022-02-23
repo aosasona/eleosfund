@@ -92,6 +92,9 @@
             <h1 class="text-2xl xl:text-3xl font-medium mt-5">What do you owe us?</h1>
             <p class="px-5 mt-2">Well, you do owe us one thing, just kidding. All we want is that you create something truly amazing with the capital 😎</p>
         </div>
+
+        <div class="mt-16 font-light text-xs" id="footer"></div>
+        
     </div>
 
     </center>
@@ -136,4 +139,5 @@ fullpage_api.setAllowScrolling(true);
 </script>
 
 <script src="{{ asset('/js/home.js') }}"></script>
+
 @endsection
