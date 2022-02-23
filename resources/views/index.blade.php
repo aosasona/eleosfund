@@ -33,31 +33,31 @@
     </div>
 
      <!-- Second section -->
-    <div class="section w-[100vw] flex flex-col xl:flex-row justify-center items-center px-5">
+    <div class="section w-[100vw] h-[100vh] flex flex-col xl:flex-row justify-center items-center px-5">
         <div class="w-full xl:w-3/5 flex flex-col xl:flex-row justify-center items-center px-5 xl:text-left">
         <img src="{{ asset('img/idea.svg') }}" alt="Idea"class="xl:w-1/5"/>
-        <h1 class="break-words text-3xl xl:text-5xl font-medium xl:mx-10 mt-8 xl:mt-0">You had an <span class="text-green-600">AMAZING</span> idea that could be the next big thing!</h1>
+        <h1 class="break-words text-2xl xl:text-5xl font-medium xl:mx-10 mt-8 xl:mt-0">You had an <span class="text-green-600">AMAZING</span> idea that could be the next big thing!</h1>
         </div>
     </div>
 
      <!-- Third section -->
-     <div class="section w-[100vw] flex flex-col xl:flex-row justify-center items-center px-5">
+     <div class="section w-[100vw] h-[100vh] flex flex-col xl:flex-row justify-center items-center px-5">
         <div class="w-full xl:w-3/5 flex flex-col xl:flex-row-reverse justify-center items-center px-5 xl:text-right">
             <img src="{{ asset('img/thought.svg') }}" alt="Thought" class="xl:w-1/3"/>
-            <h1 class="break-words text-3xl xl:text-5xl font-medium xl:mx-10 mt-8 xl:mt-0">You gave it a <span class="text-green-600">LOT</span>of thought and asked others what they thought</h1>
+            <h1 class="break-words text-2xl xl:text-5xl font-medium xl:mx-10 mt-8 xl:mt-0">You gave it a <span class="text-green-600">LOT</span>of thought and asked others what they thought</h1>
             </div>
     </div>
 
      <!-- Fourth section -->
-     <div class="section w-[100vw] flex flex-col xl:flex-row justify-center items-center px-5">
+     <div class="section w-[100vw] h-[100vh] flex flex-col xl:flex-row justify-center items-center px-5">
         <div class="w-full xl:w-3/5 flex flex-col xl:flex-row justify-center items-center px-5 xl:text-left">
             <img src="{{ asset('img/plan.svg') }}" alt="Plan" class="xl:w-1/5"/>
-            <h1 class="break-words text-3xl xl:text-5xl font-medium xl:mx-10 mt-8 xl:mt-0">You planned it <span class="text-green-600">ALL</span> like the genius you are.</h1>
+            <h1 class="break-words text-2xl xl:text-5xl font-medium xl:mx-10 mt-8 xl:mt-0">You planned it <span class="text-green-600">ALL</span> like the genius you are.</h1>
             </div>
     </div>
 
        <!-- Fifth section -->
-       <div class="section w-[100vw] flex flex-col xl:flex-row justify-center items-center px-5">
+       <div class="section w-[100vw] h-[100vh] flex flex-col xl:flex-row justify-center items-center px-5">
 
             <h1 class="break-words text-5xl xl:text-6xl font-medium xl:mx-10"><span class="text-green-600">But...</span></h1>
 
@@ -65,14 +65,14 @@
 
 
       <!-- Sixth section -->
-      <div class="section w-[100vw] flex flex-col xl:flex-row justify-center items-center px-5">
+      <div class="section w-[100vw] h-[100vh] flex flex-col xl:flex-row justify-center items-center px-5">
         <div class="w-full xl:w-3/5 flex flex-col xl:flex-row-reverse justify-center items-center px-5 xl:text-right">
             <img src="{{ asset('img/funds.svg') }}" alt="Funds" class="xl:w-1/3"/>
-            <h1 class="break-words text-3xl xl:text-5xl font-medium xl:mx-10 mt-8 xl:mt-0">You have <span class="text-red-600">NO</span> funds for bootstrapping :(</h1>
+            <h1 class="break-words text-2xl xl:text-5xl font-medium xl:mx-10 mt-8 xl:mt-0">You have <span class="text-red-600">NO</span> funds for bootstrapping :(</h1>
             </div>
     </div>
 
-    <div class="section px-5">
+    <div class="section px-5 h-[100vh]">
         <div class="w-full xl:w-2/5 px-6 py-10 text-left bg-zinc-100 drop-shadow-lg rounded-xl">
             <h1 class="text-2xl xl:text-3xl font-medium">We are here to help you with that</h1>
             <p class="px-5 mt-2">EleosFund connects you with potential investors who are simply interested in being a part of something great like contributing towards this amazing idea you have!</p>
