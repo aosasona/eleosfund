@@ -84,7 +84,7 @@ html, body {
     transform : scale(0);
 }
 
-.section a:hover {
+.section a:hover, a:active {
     animation: 500ms buttonEffect ease-in-out;
     animation-fill-mode: forwards;
     transform-origin: top;

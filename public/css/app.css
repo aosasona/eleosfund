@@ -122,7 +122,7 @@ html, body {
     transform : scale(0);
 }
 
-.section a:hover {
+.section a:hover, a:active {
     -webkit-animation: 500ms buttonEffect ease-in-out;
             animation: 500ms buttonEffect ease-in-out;
     -webkit-animation-fill-mode: forwards;
