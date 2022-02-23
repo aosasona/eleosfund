@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#FFFFFF">
 
     <link rel="stylesheet" href="{{ asset('/css/app.css') }}" />
-    <link rel="icon" href="{{ asset('/img/eleosfund-white.png')}}" />
+    <link rel="icon" href="{{ asset('/img/eleosfund.svg')}}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -20,8 +20,8 @@
 
     <nav class="mx-5 flex flex-row justify-between items-center my-2 xl:my-10 xl:mx-28">
 
-        <div class="flex flex-row w-auto items-center h-[6vh] xl:h-[10vh] navLogo">
-        <img src="{{ asset('/img/eleosfund.svg') }}" class="h-full" alt="logo" />
+        <div class="flex flex-row w-auto items-center h-[6vh] xl:h-[8vh] navLogo">
+        <img src="{{ asset('/img/eleosfund.svg') }}" class="h-2/3" alt="logo" />
         <span class="font-medium text-xl xl:text-2xl mx-2">EleosFund</span>
         </div>
 

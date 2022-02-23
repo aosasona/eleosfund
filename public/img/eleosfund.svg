@@ -1,69 +1,27 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
-   version="1.1"
-   id="svg5"
-   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
-   sodipodi:docname="eleosfund.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview7"
-     pagecolor="#ffffff"
-     bordercolor="#999999"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="0.7046647"
-     inkscape:cx="396.64254"
-     inkscape:cy="560.55029"
-     inkscape:window-width="1920"
-     inkscape:window-height="1080"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
-  <defs
-     id="defs2" />
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <rect
-       style="fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
-       id="rect161"
-       width="118.27434"
-       height="18.773705"
-       x="58.198483"
-       y="127.66119" />
-    <rect
-       style="fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
-       id="rect161-3"
-       width="118.27434"
-       height="18.773705"
-       x="59.137169"
-       y="168.96335" />
-    <rect
-       style="fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
-       id="rect165"
-       width="117.52339"
-       height="6.007585"
-       x="30.037924"
-       y="155.0708" />
-    <circle
-       style="fill:#000000;stroke-width:0.264583"
-       id="path543"
-       cx="31.164349"
-       cy="158.07458"
-       r="11.264223" />
-  </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1080 1080" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<metadata>
+<vectornator:setting key="IsTimeLapseWatermarkDisabled" value="false"/>
+<vectornator:setting key="UndoHistoryDisabled" value="true"/>
+<vectornator:setting key="VNDimensionsVisible" value="true"/>
+<vectornator:setting key="VNSnapToGuides" value="true"/>
+<vectornator:setting key="WDCMYKEnabledKey" value="false"/>
+<vectornator:setting key="WDDisplayWhiteBackground" value="false"/>
+<vectornator:setting key="WDDynamicGuides" value="false"/>
+<vectornator:setting key="WDGuidesVisible" value="true"/>
+<vectornator:setting key="WDIsolateActiveLayer" value="false"/>
+<vectornator:setting key="WDOutlineMode" value="false"/>
+<vectornator:setting key="WDRulersVisible" value="true"/>
+<vectornator:setting key="WDSnapToEdges" value="false"/>
+<vectornator:setting key="WDSnapToGrid" value="false"/>
+<vectornator:setting key="WDSnapToPoints" value="false"/>
+<vectornator:setting key="WDUnits" value="Millimeters"/>
+</metadata>
+<defs/>
+<g id="Layer-1" vectornator:layerName="Layer 1">
+<path d="M272.547 337.365L1052.88 337.365L1052.88 337.365L1052.88 459.653L1052.88 459.653L272.547 459.653L272.547 459.653L272.547 337.365L272.547 337.365Z" fill="#000000" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M273.555 606.398L1053.88 606.398L1053.88 606.398L1053.88 728.686L1053.88 728.686L273.555 728.686L273.555 728.686L273.555 606.398L273.555 606.398Z" fill="#000000" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M84.6658 513.392L860.039 513.392L860.039 513.392L860.039 552.524L860.039 552.524L84.6658 552.524L84.6658 552.524L84.6658 513.392L84.6658 513.392Z" fill="#000000" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M28.5484 532.958C28.5484 502.149 53.8457 477.173 85.0516 477.173C116.257 477.173 141.555 502.149 141.555 532.958C141.555 563.767 116.257 588.743 85.0516 588.743C53.8457 588.743 28.5484 563.767 28.5484 532.958Z" fill="#000000" fill-rule="evenodd" opacity="1" stroke="none"/>
+</g>
 </svg>
