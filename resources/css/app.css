@@ -106,6 +106,10 @@ html, body {
     }
 }
 
+#navMenuFull a:hover, a:active {
+    color:#008A0E;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
