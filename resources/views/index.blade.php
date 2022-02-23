@@ -29,7 +29,7 @@
      <!-- First section -->
     <div class="section w-[100vw] flex flex-col">
         <h1 class="font-semibold text-2xl xl:text-6xl textMain">Bring Your Idea To Life!</h1>
-        <div class="underlineDiv w-4/5 xl:w-2/5 mt-3 mb-3 xl:my-8"></div>
+        <div class="underlineDiv w-4/5 xl:w-2/5 mt-3 mb-3 xl:my-8 rotate-3"></div>
         <span class="textTyped text-green-600 text-xl xl:text-3xl font-medium w-auto"></span>
     </div>
 
@@ -60,7 +60,7 @@
        <!-- Fifth section -->
        <div class="section w-[100vw] h-[100vh] flex flex-col xl:flex-row justify-center items-center px-5">
 
-            <h1 class="break-words text-5xl xl:text-6xl font-medium xl:mx-10"><span class="text-green-600">But...</span></h1>
+            <h1 class="break-words text-6xl xl:text-7xl font-medium xl:mx-10"><span class="text-green-600">But...</span></h1>
 
     </div>
 
@@ -115,10 +115,9 @@ new fullpage('#fullpage', {
 	parallax: true,
 	parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
     slideSelector: '.section',
-    controlArrows: true,
-    css3: true,
 	scrollingSpeed: 500,
 	autoScrolling: true,
+    fixedElements: '#Nav',
 });
 
 //methods

@@ -111,7 +111,6 @@ html, body {
     opacity: 0;
     background-color: #009D19;
     padding: 2px;
-    transform: rotate(-3deg);
 }
 
 .textMain {
@@ -558,10 +557,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .absolute{
     position: absolute;
 }
-.sticky{
-    position: -webkit-sticky;
-    position: sticky;
-}
 .top-0{
     top: 0px;
 }
@@ -611,17 +606,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-\[37rem\]{
     height: 37rem;
 }
-.h-\[10vh\]{
-    height: 10vh;
+.h-\[6vh\]{
+    height: 6vh;
 }
 .h-full{
     height: 100%;
-}
-.h-screen{
-    height: 100vh;
-}
-.h-\[6vh\]{
-    height: 6vh;
 }
 .w-\[100vw\]{
     width: 100vw;
@@ -637,6 +626,13 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-\[37rem\]{
     width: 37rem;
+}
+.w-screen{
+    width: 100vw;
+}
+.rotate-3{
+    --tw-rotate: 3deg;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .flex-row{
     flex-direction: row;
@@ -662,6 +658,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-zinc-100{
     --tw-bg-opacity: 1;
     background-color: rgb(244 244 245 / var(--tw-bg-opacity));
+}
+.bg-white{
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .px-5{
     padding-left: 1.25rem;
@@ -690,9 +690,9 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 3rem;
     line-height: 1;
 }
-.text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+.text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
 }
 .font-semibold{
     font-weight: 600;
@@ -757,10 +757,6 @@ Ensure the default browser behavior of the `hidden` attribute.
         margin-top: 0px;
     }
 
-    .xl\:mt-10{
-        margin-top: 2.5rem;
-    }
-
     .xl\:block{
         display: block;
     }
@@ -793,6 +789,10 @@ Ensure the default browser behavior of the `hidden` attribute.
         flex-direction: row-reverse;
     }
 
+    .xl\:bg-transparent{
+        background-color: transparent;
+    }
+
     .xl\:text-left{
         text-align: left;
     }
@@ -813,6 +813,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 
     .xl\:text-5xl{
         font-size: 3rem;
+        line-height: 1;
+    }
+
+    .xl\:text-2xl{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .xl\:text-7xl{
+        font-size: 4.5rem;
         line-height: 1;
     }
 }

@@ -75,7 +75,6 @@ html, body {
     opacity: 0;
     background-color: #009D19;
     padding: 2px;
-    transform: rotate(-3deg);
 }
 
 .textMain {
