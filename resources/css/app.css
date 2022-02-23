@@ -4,6 +4,11 @@
     font-family: Poppins, 'sans serif';
     box-sizing: border-box;
 }
+html, body {
+    width : 100vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
 .circleContainer {
     position: relative;
     width: 100vw;
@@ -11,14 +16,15 @@
     animation-fill-mode: forwards;
     transform-origin: top right;
     animation-delay: 300ms;
-    transform : scale(0);  
+    transform : scale(0); 
+    box-sizing: border-box;
 }
 .circleBackground {
     position: absolute;
     top: -20rem;
     right: -5rem;
-    width: 35rem;
-    height: 35rem;
+    width: 37rem;
+    height: 37rem;
     background-color: #008A0E;
     opacity: 65%;
     border-radius: 50%;
@@ -61,6 +67,12 @@
         opacity: 1;
         transform: translateY(0px);
     }
+}
+
+.underlineDiv {
+    background-color: #009D19;
+    padding: 2px;
+    transform: rotate(-3deg);
 }
 
 @tailwind base;

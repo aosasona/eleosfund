@@ -11,21 +11,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="antialiased">
-    <div class="circleContainer">
+    <div class="circleContainer hidden xl:block">
         <div class="circleBackground"></div>
     </div>
 
     <nav class="mx-5 flex flex-row justify-between items-center my-1 xl:my-10 xl:mx-32">
 
-        <div class="flex flex-row w-1/12 items-center h-[10vh] navLogo">
+        <div class="flex flex-row w-auto items-center h-[10vh] navLogo">
         <img src="{{ asset('/img/eleosfund.svg') }}" class="h-full" alt="logo" />
         <span class="font-medium text-lg mx-2">EleosFund</span>
         </div>
 
-        <div id="NavLinks" class="text-white font-medium">
-            <a  href="#" class="mx-3 hover:text-green-200 hover:underline hover:underline-offset-[8px]">About Us</a>
-            <a  href="#" class="mx-3 hover:text-green-200 hover:underline hover:underline-offset-[8px]">Contact Us</a>
-            <a  href="#" class="mx-3 hover:text-green-200 hover:underline hover:underline-offset-[8px]">FAQs</a>
+        <div id="NavLinks" class="text-white font-medium hidden xl:block">
+            <a  href="{{ route('about') }}" class="mx-3 hover:text-green-200 hover:underline hover:underline-offset-[8px]">About Us</a>
+            <a  href="{{ route('contact') }}" class="mx-3 hover:text-green-200 hover:underline hover:underline-offset-[8px]">Contact Us</a>
+            <a  href="{{ route('faqs') }}" class="mx-3 hover:text-green-200 hover:underline hover:underline-offset-[8px]">FAQs</a>
         </div>
         
     </nav>

@@ -20,17 +20,106 @@
 <meta property="twitter:title" content="EleosFund - Fundraising For Startups">
 <meta property="twitter:description" content="Raise funds to bring that idea to life and build your own startup!">
 <meta property="twitter:image" content="https://eleosfund.com/img/eleosfund.png">
-<link rel="stylesheet" type="text/css" href="fullpage.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<div class="fullpage">
-    <div class="section"></div>
-    <div class="section"></div>
-    <div class="section"></div>
-    <div class="section"></div>
+<div id="fullpage">
+    <center>
+     <!-- First section -->
+    <div class="section w-[100vw] flex flex-col">
+        <h1 class="font-semibold text-2xl xl:text-6xl">Bring Your Idea To Life!</h1>
+        <div class="underlineDiv w-4/5 xl:w-2/5 mt-3 mb-3 xl:my-8"></div>
+        <span class="textTyped text-green-600 text-xl xl:text-3xl font-medium w-auto"></span>
+    </div>
+
+     <!-- Second section -->
+    <div class="section w-[100vw] flex flex-col xl:flex-row justify-center items-center px-5">
+        <div class="w-full xl:w-3/5 flex flex-col xl:flex-row justify-center items-center px-5 xl:text-left">
+        <img src="{{ asset('img/idea.svg') }}" alt="Idea"class="xl:w-1/5"/>
+        <h1 class="break-words text-3xl xl:text-5xl font-medium xl:mx-10 mt-8 xl:mt-0">You had an <span class="text-green-600">AMAZING</span> idea that could be the next big thing!</h1>
+        </div>
+    </div>
+
+     <!-- Third section -->
+     <div class="section w-[100vw] flex flex-col xl:flex-row justify-center items-center px-5">
+        <div class="w-full xl:w-3/5 flex flex-col xl:flex-row-reverse justify-center items-center px-5 xl:text-right">
+            <img src="{{ asset('img/thought.svg') }}" alt="Thought" class="xl:w-1/3"/>
+            <h1 class="break-words text-3xl xl:text-5xl font-medium xl:mx-10 mt-8 xl:mt-0">You gave it a <span class="text-green-600">LOT</span>of thought and asked others what they thought</h1>
+            </div>
+    </div>
+
+     <!-- Fourth section -->
+     <div class="section w-[100vw] flex flex-col xl:flex-row justify-center items-center px-5">
+        <div class="w-full xl:w-3/5 flex flex-col xl:flex-row justify-center items-center px-5 xl:text-left">
+            <img src="{{ asset('img/plan.svg') }}" alt="Plan" class="xl:w-1/5"/>
+            <h1 class="break-words text-3xl xl:text-5xl font-medium xl:mx-10 mt-8 xl:mt-0">You planned it <span class="text-green-600">ALL</span> like the genius you are.</h1>
+            </div>
+    </div>
+
+       <!-- Fifth section -->
+       <div class="section w-[100vw] flex flex-col xl:flex-row justify-center items-center px-5">
+
+            <h1 class="break-words text-5xl xl:text-6xl font-medium xl:mx-10"><span class="text-green-600">But...</span></h1>
+
+    </div>
+
+
+      <!-- Sixth section -->
+      <div class="section w-[100vw] flex flex-col xl:flex-row justify-center items-center px-5">
+        <div class="w-full xl:w-3/5 flex flex-col xl:flex-row-reverse justify-center items-center px-5 xl:text-right">
+            <img src="{{ asset('img/funds.svg') }}" alt="Funds" class="xl:w-1/3"/>
+            <h1 class="break-words text-3xl xl:text-5xl font-medium xl:mx-10 mt-8 xl:mt-0">You have <span class="text-red-600">NO</span> funds for bootstrapping :(</h1>
+            </div>
+    </div>
+
+    <div class="section px-5">
+        <div class="w-full xl:w-2/5 px-6 py-10 text-left bg-zinc-100 drop-shadow-lg rounded-xl">
+            <h1 class="text-2xl xl:text-3xl font-medium">We are here to help you with that</h1>
+            <p class="px-5 mt-2">EleosFund connects you with potential investors who are simply interested in being a part of something great like contributing towards this amazing idea you have!</p>
+
+            <h1 class="text-2xl xl:text-3xl font-medium mt-5">What do you owe us?</h1>
+            <p class="px-5 mt-2">Well, you do owe us one thing, just kidding. All we want is that you create something truly amazing with the capital 😎</p>
+        </div>
+    </div>
+
+    </center>
 </div>
 
 
-<script type="text/javascript" src="fullpage.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js" integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+var options = {
+  strings: ['Dream.', 'Create.', 'Inspire.', 'Empower.', 'Impact Lives!'],
+  typeSpeed: 160,
+  smartBackspace: true,
+  backDelay: 1000,
+  loop: true,
+  loopCount: Infinity,
+  showCursor: false,
+  cursorChar: '',
+  autoInsertCss: true,
+
+};
+
+var typed = new Typed('.textTyped', options);
+
+new fullpage('#fullpage', {
+	//options here
+	autoScrolling:true,
+	scrollHorizontally: false,
+	parallax: true,
+	parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
+    slideSelector: '.section',
+    controlArrows: true,
+});
+
+//methods
+fullpage_api.setAllowScrolling(true);
+</script>
+
 <script src="{{ asset('/js/home.js') }}"></script>
 @endsection
